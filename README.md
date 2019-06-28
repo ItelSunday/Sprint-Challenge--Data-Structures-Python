@@ -56,6 +56,7 @@ buffer.append('f')
 buffer.get()   # should return ['d', 'e', 'f']
 ```
 
+
 #### Task 2. Runtime Optimization
 
 Navigate into the `names` directory. Here you will find two text files containing 10,000 names each, along with a program `names.py` that compares the two files and prints out duplicate name entries. Try running the code with `python3 names.py`. Be patient because it might take a while: approximately six seconds on my laptop. What is the runtime complexity of this code?
@@ -64,13 +65,16 @@ Six seconds is an eternity so you've been tasked with speeding up the code. Can 
 
 (Hint: You might try importing a data structure you built during the week)
 
+
 #### Task 3. Analyze Some Runtimes
 
 Open up the `Data_Structures_Answers.md` file. This is where you'll jot down your answers for the runtimes of the functions/data structures you just implemented. Also include the runtime and space complexities of the original code and your optimized solution from `names.py`.
 
+
 ### Stretch Problems
 
 1. Say your code from `names.py` is to run on an embedded computer with very limited RAM. Because of this, memory is extremely constrained and you are only allowed to store names in arrays (i.e. Python lists). How would you go about optimizing the code under these conditions? Try it out and compare your solution to the original runtime. (If this solution is less efficient than your original solution, include both and label the strech solution with a comment)
+
 
 
 ### Rubric
