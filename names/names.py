@@ -16,7 +16,10 @@ f.close()
 #         if name_1 == name_2:
 #             duplicates.append(name_1)
 
-duplicates = list([names_1]) and (names_2) #printed out all the names T_T
+duplicates = list(set(names_1) & set(names_2)) #printed out all the names T_T
+#Is there a way to keep this not rewriting the whole thing? It doesn't have to be complicated 
+#compares the two files and prints out duplicate names
+#We can use counter, to count each element or just set
 
 end_time = time.time()
 print (f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
